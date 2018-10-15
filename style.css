@@ -1,0 +1,107 @@
+*{
+ font-family: sans-serif;
+ line-height: 1.618em;
+ box-sizing: border-box;
+ margin:0;
+ padding:0;
+}
+
+html{
+    margin-top:3em;
+    font-size: 16px;
+    
+}
+.Pic{
+  background-image:url(images/green.jpg);
+background-position: center;
+    background-repeat:no-repeat;
+    color:#0000;
+ 
+}
+.neko{
+    background-image: url(images/Neko\ Head\ Shot2.jpg);
+    background-position:fixed;
+}
+
+#aboutMe{
+    
+   margin: auto;
+    font-size: 1rem;
+}
+h1,h2,h3{
+    color:#0000;
+    font-family: avenir next;
+}
+header,main,footer{
+    margin:0 auto;
+    max-width: 800px;
+}
+header{
+    padding: 2em 0;
+}
+header h1{
+    font-size:3em;
+}
+header span{
+    font-size:2em;
+    color:#0000;
+
+}
+
+nav{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    display:flex;
+    flex-flow: row;
+    justify-content: center;
+    background: #333;
+}
+nav a{
+    padding:.5em 2em;
+    text-decoration: none;
+    color:#fff;
+}
+
+nav a:hover{
+    background:#666;
+}
+section{
+    margin:1em 0;
+    padding-top: 3em;
+    min-height: 20em; 
+}
+section>p{
+    margin:1em 0;
+
+}
+section ul{
+    padding-left: 1.5em;
+
+}
+.projects{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+grid-column-gap: 1em;
+}
+.projects article{
+    background:#ccc;
+    padding:1em;
+
+}
+.projects article img{
+    width: 100%;
+    border:1px solid #000;
+}
+footer{
+    margin-top: 2em;
+    margin-bottom: 1em;
+    background: #666;
+    color:#fff;
+    padding: 1em 0;
+    text-align: center;
+    background-image: url(images/leaves.jpg);
+    background-position:center;
+}
