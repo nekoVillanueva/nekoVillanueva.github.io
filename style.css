@@ -29,7 +29,7 @@ background-position: center;
     font-size: 1rem;
 }
 h1,h2,h3{
-    color:#0000;
+    color:#000;
     font-family: avenir next;
 }
 header,main,footer{
@@ -44,7 +44,7 @@ header h1{
 }
 header span{
     font-size:2em;
-    color:#0000;
+    color:#000;
 
 }
 
@@ -99,7 +99,7 @@ footer{
     margin-top: 2em;
     margin-bottom: 1em;
     background: #666;
-    color:#0000;
+    color:#000;
     padding: 1em 0;
     text-align: center;
     background-image: url(images/leaves.jpg);
