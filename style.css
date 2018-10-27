@@ -20,7 +20,8 @@ background-position: center;
 }
 .neko{
     background-image: url(images/Neko\ Head\ Shot2.jpg);
-    background-position:fixed;
+    background-position:center;
+    background-repeat: no-repeat;
 }
 
 #aboutMe{
