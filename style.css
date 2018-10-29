@@ -57,11 +57,11 @@ body.modal-open {
   span.live:hover {
     color: #09f;
   }
-  .projects button {
+  #projects button {
     display: none;
   }
   @media screen and (max-width: 40em) {
-    #products {
+    #projects {
       grid-template-columns: 1fr;
       grid-row-gap: 1em;
       
@@ -70,20 +70,20 @@ body.modal-open {
       margin: 1em auto;
     }
   
-    #products button {
+    #projects button {
       display: inline-block;
     }  
     
-    #products article p {
+    #projects article p {
       display: none;
     }
   
-    #products article.expanded p {
+    #projects article.expanded p {
       display: block;
     }
   }
   @media screen and (max-width: 25em) {
-    #products {
+    #projects {
       width: auto;
       min-width: unset;
     }

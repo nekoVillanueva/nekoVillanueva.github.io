@@ -32,7 +32,7 @@
     // Product details can be expanded
     function addArticleDetailsToggle() {
   
-      const articles = document.querySelectorAll('#products article');
+      const articles = document.querySelectorAll('#projects article');
   
       for (let article of articles) {
         let button = article.querySelector('button');
@@ -54,7 +54,7 @@
         const nav = document.querySelector('nav');
         nav.classList.remove('open');
   
-        const articles = document.querySelectorAll('#products article');
+        const articles = document.querySelectorAll('#projects article');
         
         for (let article of articles) {
           article.classList.remove('expanded');
