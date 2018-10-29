@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="/style.css" rel="stylesheet" />
     
 
     <header>
@@ -28,19 +29,14 @@
 
         <section id="aboutMe">
             <h2>About Me</h2>
+           
             <p>
                     Neko Villanueva is a Software Developer at WeCanCodeIT, 
                     a full-time 5-star rated coding bootcamp which teaches agile full-stack software development. 
                     He is currently enrolled in the Fall 2018 cohort with an expected graduation date of December 2018.
+                    <span id="modal-trigger" class="live">More information Here</span>
                 </p>
-                <p>
-                    Prior to enrolling at WCCI, Neko spent over five years in a Customer Service/Retail environment before 
-                    transitioning to work as a Direct Support Profesional. While working as a DSP Neko learned of the various
-                    assistance options clients with mental and physical disabilities had at their disposal due to advancements in technology.
-                    This discovery sparked his efforts to continue his education to advance in his life long passion for helping others and 
-                    being at the forefront of the technological frontier. Neko decided to pursue his career as a software developer in hope 
-                    of being able to create software and applications that make everyday struggles a lot less stressful.
-                </p>
+                
                     
                 
                 
@@ -54,7 +50,7 @@
                 programming practices.
 
             </p>
-            <div class="projects">
+            <div id="projects" class="projects">
                   
                 <article >
                     <h3>Review Site</h3>
@@ -80,6 +76,34 @@
             </div>
 
         </section>
+        <section id="PCProjects">
+            <h2>Past and Current Projects </h2>
+          <p>Here are more examples and information of my current projects that I am working on and a few past projects as well.</p>
+    
+            <div id="slider">
+              <div id="slider-frame">
+                
+                <div id="slider-prev">PREV</div>
+                <div id="slider-next">NEXT</div>
+    
+                <div id="slider-images">
+                  <div data-src="images/lucky.png">
+                    Lucky Numbers was a very interesting project that introduced random generator methods.
+                  </div>
+                  <div data-src="images/pet.png">
+                    This pet project allowed you to be the owner of a pet dinosaur .
+                  </div>
+                  <div data-src="./images/review.png">
+                    The review Site project was the start of my front end web development which included information on a few popular sneaker brands.
+                  </div>
+                </div>
+    
+              </div>
+              <div id="slider-caption">
+               Projects Galore
+              </div>
+            </div>
+        </section>
         <section id="getInTouch">
             <h2>Contact Information</h2>
             <p>
@@ -96,10 +120,28 @@
         <a href="#aboutMe">About Me</a>
         <a href="#ourProducts">Recent Projects</a>
         <a href="#getInTouch">Contact Information</a>
+        <a href="#PCProjects">Special Events</a>
     </nav>
     <footer>
        Copyright &copy; 2018 Neko Villanueva
     </footer>
+    <div id="backdrop">
+        <div id="modal">
+          <button class="text-button">Close</button>
+          <h4>Neko's work Experience and Goals</h4>
     
+          <div id="modal-content">
+            <p>
+                Prior to enrolling at WCCI, Neko spent over five years in a Customer Service/Retail environment before 
+                transitioning to work as a Direct Support Profesional. While working as a DSP Neko learned of the various
+                assistance options clients with mental and physical disabilities had at their disposal due to advancements in technology.
+                This discovery sparked his efforts to continue his education to advance in his life long passion for helping others and 
+                being at the forefront of the technological frontier. Neko decided to pursue his career as a software developer in hope 
+                of being able to create software and applications that make everyday struggles a lot less stressful.
+            </p>
+          </div>
+        </div>
+      </div>
+    <script src="./script.js"></script>
 </body>
 </html>
